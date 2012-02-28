@@ -1,0 +1,372 @@
+	html, body
+		{
+			width:100%;
+			margin:0;
+			padding:0;
+			font-family:'Lucida Grande', 'Lucida Sans', Arial, Verdana, sans-serif;
+			color:#000;
+		}
+		body
+		{
+			padding-bottom:20px !important;
+			background:url('/img/bg.png');
+		}
+		a img
+		{
+			border:0;
+		}
+		a
+		{
+			color:#145080;
+
+		}
+		h1, h2, h3, h4, h5, h6
+		{
+			color:#3d6f96;
+		}
+		div#header
+		{
+			background:url('/img/head_bg.png') repeat-x;
+			width:100%;
+			height:158px;
+			position:relative;
+			z-index:1;
+			min-width:900px;
+		}	
+		div#header_content
+		{
+			background:url('/img/head_mid_bg.png') no-repeat;
+			margin:0 auto;
+			width:898px;
+			height:150px;
+		}
+		div#header_content .logo
+		{
+			margin-top:70px;
+			margin-left:50px;
+			float: left;
+		}
+		div#header_content .version
+		{
+			position:absolute;
+			top:100px;
+			margin-lefT:-35px;
+			font-size:12px;
+			color:#fff;
+		}
+		div#header_content ul
+		{
+			float:right;
+			list-style:none;
+			color:#fff;
+			overflow:auto;
+			margin-top:42px;
+			width:450px;
+			height:85px;
+		}
+		div#header_content li
+		{
+			float:left;
+			margin-right: 30px;
+			margin-left:30px;
+			
+		}
+		div#header_content li a
+		{
+			color:#fff;
+			text-decoration:none;
+		}	
+		div#header_content li img
+		{
+			display:block;
+			text-align:center;
+			margin:5px auto;
+		}
+		div#content_wrapper
+		{
+			width:900px;
+			margin:0 auto;
+			margin-bottom:25px;
+		}
+		div#sub_menus
+		{
+			margin-left:270px;
+			position:relative;
+			z-index:0;
+			float:left;
+		}
+		div#sub_menus ul
+		{
+			list-style:none;
+			height:69px;
+			margin:0;
+		}
+		div#sub_menus ul li
+		{
+			height:39px;
+			background:#254b69;
+			float:left;
+			padding:0 15px;
+			padding-top:30px;
+		}
+		div#sub_menus ul li a
+		{
+			color:#fff;
+			text-decoration:none;
+		}
+		div#sub_menus ul li.left-round
+		{
+			background:url('/img/submenu_left_round.png');
+			width:9px;
+			padding:0;
+			height:69px;
+		}
+		div#sub_menus ul li.right-round
+		{
+			background:url('/img/submenu_right_round.png');
+			width:9px;
+			padding:0;
+			height:69px;
+		}
+		div#ayuda
+		{
+			float:left;
+			margin:0;
+			margin-top:15px;
+			position:relative;
+			left: 20px;
+			overflow:auto;
+		}
+		div#ayuda img
+		{
+			display:block;
+			float:left;
+		}
+		div#ayuda a
+		{
+			font-weight:bold;
+			font-size:14px;
+		}
+		div#ayuda a span
+		{
+			margin-top:14px;
+			margin-left:8px;
+			display:block;
+			float:left;
+			
+		}
+		div#pre_content
+		{
+			overflow:auto;
+			margin:0;
+			margin-top:-13px;
+			padding:0;
+		}
+		div#content
+		{
+			clear:both;
+			width:840px;
+			border:5px solid #c4c3ca;
+			background:#fff;
+			margin:20px auto;
+			padding: 15px 15px;
+		}
+		ul#bottom_menu
+		{
+			list-style:none;
+			text-align:center;
+			margin:0 auto;
+			width:350px;
+			overflow:auto;
+		}
+		ul#bottom_menu li
+		{
+			float:left;
+			font-size:12px;
+			margin:0 15px;
+		}
+		div.login
+		{
+			width:200px;
+			margin:0 auto;
+			font-size:12px;
+		}
+		div.login input
+		{
+			padding:5px;
+		}
+		div.login form div.submit
+		{
+			margin-left:70px;
+		}
+		div.login form
+		{
+			width:100%;
+			margin: 0;
+		}
+		div#flashMessage
+		{
+			text-align:center;
+			font-size:90%;
+		}
+		table.split-date-wrap
+		{
+			width:auto;
+			border:0;
+			float:left;
+		}
+		table.split-date-wrap td
+		{
+			border:0;
+		}
+		table.split-date-wrap input
+		{
+			width:40px;
+			padding:0;
+			font-size:12px;
+		}
+		table.split-date-wrap label
+		{
+			font-size:0.6em;
+		}
+		div.datepicker
+		{
+			font: 600 0.6em/1em Verdana, Sans-Serif !important;
+		}
+		div.datepicker-wrap
+		{
+			float:left;
+			overflow:auto;
+			margin:0;
+			clear:none;
+		}
+		div.datepicker-wrap input[type="submit"]
+		{
+			font-size:0.6em;
+		}
+		div.datepicker-wrap a
+		{
+			font-size:0.6em;
+		}
+		div.receipts.form form
+		{
+			width:100%;
+			overflow:auto;
+            font-size:0.8em;
+		}
+        div.receipts td
+        {
+            font-size:0.8em;
+        }
+        div.receipts.form td a
+        {
+            font-size:14px;
+            position:relative;
+            top:5px;
+        }
+        div.receipts.form select
+        {
+            padding:2px;
+        }
+        div.receipts.form input[type="text"]
+        {
+            width:85%;
+        }
+        div.receipts.form div.submit
+        {
+            margin-left:0px;
+            width:200px;
+            float:left;
+        }
+        div.receipts.view h2
+        {
+            width: 45%; float:left;
+        }
+        div.receipts.view h3
+        {
+            width: 45%; float:right; text-align:right; margin-right:20px;
+        }
+        div#content div.actions ul
+        {
+            text-align:right;
+        }
+        ul.filters 
+        {
+            list-style: none;
+        }
+        ul.filters li
+        {
+            display:inline-block;
+            margin-right:20px;
+        }
+        div.dispatches
+        {
+            font-size:0.8em;
+        }
+        div.dispatches.form div.submit
+        {
+            margin:20px auto;
+            text-align:center;
+        }
+        div.dispatches.form form
+        {
+            width:100%;
+        }
+        div.dispatches.form fieldset
+        {
+            width:450px;
+            margin:0 auto;
+        }
+        div.dispatches.form textarea
+        {
+            height:10em;
+            width:440px;
+        }
+        div.dispatches.form input[type=text]
+        {
+            width:85%;
+        }
+        input.readOnly
+        {
+            background:#BBB;
+        }
+        .comment-box
+        {
+          text-align: left;
+        }
+        tr th
+        {
+            padding: 5px;
+            padding-right: 20px;
+            text-align: left;
+        }
+        tr .header
+        {
+            background-image: url(/img/bg.gif);
+            background-position: right center;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        tr .headerSortUp
+        {
+            background-image: url(/img/desc.gif);
+            background-color: #8DBDD8;
+        }
+        tr .headerSortDown
+        {
+            background-image: url(/img/asc.gif);
+            background-color: #8DBDD8;
+        }
+        td.bobina
+        {
+            font-size: 10px;
+        }
+        td.part-num
+        {
+            display: block;
+            width: 150px;
+        }
+        td
+        {
+            font-size: 14px;
+        }
